@@ -19,7 +19,7 @@ const pool = new Pool({
 });
 
 app.get('/', (req, res) => {
-  res.send('Notes App API Running');
+  res.send('Welcome to Kennys live Notes App API');
 });
 
 app.post('/notes', async (req, res) => {
